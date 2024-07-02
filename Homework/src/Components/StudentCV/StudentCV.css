@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+.baseSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    width: 45%;
+    margin: auto;
+}
+
+.writingSide {
+    font-size: 1.5em;
+    width: 300px;
+    height: 600px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.writingSide:hover {
+    box-shadow: 0 0 5px 3px red;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.showingSide {
+    font-size: 1.5em;
+    width: 300px;
+    height: 600px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.showingSide:hover {
+    box-shadow: 0 0 5px 3px red;
+}
